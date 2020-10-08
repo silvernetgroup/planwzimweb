@@ -1,11 +1,11 @@
 {
-    "name": "silvertimetable",
-    "short_name": "silvertimetable",
+    "name": "Plan WZIM",
+    "short_name": "Plan WZIM",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#B71C1C",
+    "theme_color": "#B71C1C",
+    "description": "Aplikacja planu zajęć na WZIM SGGW",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
