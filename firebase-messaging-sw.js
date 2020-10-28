@@ -17,6 +17,11 @@ msg.setBackgroundMessageHandler(function(payload) {
   const title = "Plan WZIM";
   const options = {
     body: payload.data,
+    // ONLY FOR BETA STAGE!!!
+    // TODO: replace urls in the future!
+    badge: "https://silvernetgroup.github.io/planwzimweb/notification_icon.png",
+    icon: "https://silvernetgroup.github.io/planwzimweb/favicon.png",
+    click_action : "https://silvernetgroup.github.io/planwzimweb/"
   };
   return self.registration.showNotification(title,options);
 })
