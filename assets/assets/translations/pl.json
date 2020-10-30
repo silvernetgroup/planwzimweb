@@ -72,5 +72,7 @@
   "app_title": "Plan WZIM",
   "ok": "OK",
   "groups_modal_title": "Grupy",
-  "filters_modal_title": "Filtry"
+  "filters_modal_title": "Filtry",
+  "hide_group_change_fab": "Ukryj przycisk zmiany grupy",
+  "hide_filter_change_fab": "Ukryj przycisk zmiany filtru"
 }

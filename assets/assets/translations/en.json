@@ -72,5 +72,7 @@
   "app_title": "Plan WZIM",
   "ok": "OK",
   "groups_modal_title": "Groups",
-  "filters_modal_title": "Filters"
+  "filters_modal_title": "Filters",
+  "hide_group_change_fab": "Hide group change button",
+  "hide_filter_change_fab": "Hide filter change button"
 }
