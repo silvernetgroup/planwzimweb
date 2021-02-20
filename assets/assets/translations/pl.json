@@ -65,7 +65,7 @@
   "filter_exists_error": "Taki filtr już istnieje!",
   "timetable_updated": "Plan zaktualizowano",
   "timetable_current": "Plan aktualny",
-  "cant_update_timetable_error": "Nie udało się zaktualizować planu\n{}",
+  "cant_update_timetable_error": "Nie udało się zaktualizować planu.",
   "cant_download_timetable": "Nie można pobrać planu zajęć!",
   "no_timetable_in_mem": "W pamięci telefonu nie znajduje sie żaden plan!",
   "try_again": "Spróbuj ponownie",
@@ -74,5 +74,14 @@
   "groups_modal_title": "Grupy",
   "filters_modal_title": "Filtry",
   "hide_group_change_fab": "Ukryj przycisk zmiany grupy",
-  "hide_filter_change_fab": "Ukryj przycisk zmiany filtru"
+  "hide_filter_change_fab": "Ukryj przycisk zmiany filtru",
+  "event_type_not_supported": "nieznany",
+  "event_online": "zdalnie",
+  "lecture": "wykład",
+  "classes": "ćwiczenia",
+  "laboratories": "laboratoria",
+  "faculty": "fakultet",
+  "never": "nigdy",
+  "warning": "Uwaga!",
+  "cant_update_reading_from_cache_warning": "Nie udało się sprawdzić aktualizacji planu. Wyświetlany plan zajęć może być nieaktualny!"
 }

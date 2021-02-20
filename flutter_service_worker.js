@@ -3,18 +3,18 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8ff88261afd5b69ac53802fea4c270a8",
+  "assets/AssetManifest.json": "916c901925f6086e267b16c4bf1fc13b",
 "assets/assets/mini.png": "d345bc556f1732bc519274af37d7f1b2",
 "assets/assets/notification_icon.png": "1dfb9fc5ed93b2cb1914fce2bf128b40",
 "assets/assets/notification_icon.xcf": "af692b8a99e4af5b316499934a62968b",
 "assets/assets/pin.png": "44f441233bab48d53e819fc6679d41c3",
 "assets/assets/silverplan.png": "5076f117acb51dc439c2a24d800cb7e4",
-"assets/assets/translations/en.json": "08ff74b24f0ddd2caa04863ec9703955",
-"assets/assets/translations/pl.json": "d21c450e83cfb45b2b001bba25f1cfcf",
+"assets/assets/translations/en.json": "89d4d05c8a27ad1e69da1597cd375bcf",
+"assets/assets/translations/pl.json": "587804973f6cd41eb368034d7750d73b",
 "assets/assets/wzim.jpg": "6dda4cf4f52a81ba96afb8806035b065",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "df0fd991050730a2fc4a387c197f5088",
+"assets/NOTICES": "8c5158355b0447026752d4e9be7dcdc0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/easy_localization/i18n/ar-DZ.json": "acc0a8eebb2fcee312764600f7cc41ec",
 "assets/packages/easy_localization/i18n/ar.json": "acc0a8eebb2fcee312764600f7cc41ec",
@@ -24,12 +24,12 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "a64455a18f422979cef8cc786e3f33a9",
 "icons/Icon-192.png": "1b0a9b6df86277b175399d8f14605927",
 "icons/Icon-512.png": "b535dfa29828884e9b56896049d7653a",
-"index.html": "3cf256bd464129721ad9aaf789346f36",
-"/": "3cf256bd464129721ad9aaf789346f36",
-"main.dart.js": "202611fea50902200fe5892b13e45ae2",
+"index.html": "d8708d3b0ae2dc0063134a8fa368a6e3",
+"/": "d8708d3b0ae2dc0063134a8fa368a6e3",
+"main.dart.js": "f6c1ced3975af93f6e21c3ae4918e1a2",
 "manifest.json": "db61d35b4888b6e806b4d74ebc3b26cb",
 "notification_icon.png": "1dfb9fc5ed93b2cb1914fce2bf128b40",
-"version.json": "64146851492a1a8e02ff06d4367e98b9"
+"version.json": "bf2f412d6af3172f2455be76e4a2f0b2"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -173,7 +173,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
